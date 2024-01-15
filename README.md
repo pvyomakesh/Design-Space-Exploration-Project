@@ -1,7 +1,7 @@
 # Design Space Exploration Project
 
 ## Overview
-This project, titled "Finding Optimal Hardware Configurations by Employing a Heuristics-Based Approach," focuses on exploring an 18-dimensional processor pipeline and memory hierarchy design space using SimpleScalar. The project emphasizes heuristic-based approaches to optimize performance (ED^2P) and energy efficiency (EDP), and defending the choices made in the exploration process.
+This design space exploration project,focuses on exploring an 18-dimensional processor pipeline and memory hierarchy design space using SimpleScalar. The project emphasizes heuristic-based approaches to optimize performance (ED^2P) and energy efficiency (EDP), and defending the choices made in the exploration process.
 
 ## Key Components
 - **Heuristic Search Functions**: Custom algorithms to explore design spaces efficiently.
