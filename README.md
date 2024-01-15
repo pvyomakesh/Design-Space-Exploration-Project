@@ -10,11 +10,11 @@ This project, titled "Finding Optimal Hardware Configurations by Employing a Heu
 - **Validation and Analysis**: In-depth validation of configurations and detailed analysis of results.
 
 ## Files Description
-- `431project.cpp`, `431project.h`, `431projectUtils.cpp`: Core project files integrating with SimpleScalar.
-- `YOURCODEHERE.cpp`: Custom code modifications for heuristic search functions.
-- `Makefile`: Build settings for the project.
-- `runprojectsuite.sh`: Shell script for executing design space exploration using SimpleScalar with specified configurations.
-- `Project-Report.pdf`: Comprehensive report discussing the project's heuristic approach, methodology, and findings.
+- [`431project.cpp`](Project_files/431project.cpp), [`431project.h`](Project_files/431project.h), [`431projectUtils.cpp`](Project_files/431projectUtils.cpp): Core project files integrating with SimpleScalar.
+- [`YOURCODEHERE.cpp`](Project_files/YOURCODEHERE.cpp): Custom code modifications for heuristic search functions.
+- [`Makefile`](Project_files/Makefile): Build settings for the project.
+- [`runprojectsuite.sh`](Project_files/runprojectsuite.sh): Shell script for executing design space exploration using SimpleScalar with specified configurations.
+- [`Project-Report.pdf`](Project-Report.pdf): Comprehensive report discussing the project's heuristic approach, methodology, and findings.
 
 ## Script Overview: runprojectsuite.sh
 This script automates the execution of SimpleScalar for design space exploration. It runs the SimpleScalar tool with a variety of configuration parameters based on an 18-dimensional design space. The script uses arrays to define different parameters and iterates through them to test various combinations. Outputs are saved in a specified directory for analysis.
@@ -28,7 +28,7 @@ This script automates the execution of SimpleScalar for design space exploration
 - **Conclusion**: Summarizes the effectiveness of the Configuration Validation Function and the Heuristic Search Function in the design space exploration.
 
 ## Design Space Dimensions
-Refer to [`DesignSpaceDimensionChart.pdf`]() for detailed explanation of each index in the 18-dimensional design space, covering various processor and memory hierarchy configurations.
+Refer to [`DesignSpaceDimensionChart.pdf`](Project_files/DesignSpaceDimensionChart.pdf) for detailed explanation of each index in the 18-dimensional design space, covering various processor and memory hierarchy configurations.
 
 
 ## Acknowledgments
